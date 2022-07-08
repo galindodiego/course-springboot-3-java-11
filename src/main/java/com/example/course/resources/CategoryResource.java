@@ -13,7 +13,7 @@ import com.example.course.entities.Category;
 import com.example.course.services.CategoryService;
 
 @RestController
-@RequestMapping(value = "/categorys")
+@RequestMapping(value = "/categories")
 public class CategoryResource {
 
 	@Autowired
