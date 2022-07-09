@@ -56,12 +56,12 @@ public class User implements Serializable {
 		this.name = name;
 	}
 
-	public Long getIs() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setIs(Long is) {
-		this.id = is;
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	public String getPhone() {
